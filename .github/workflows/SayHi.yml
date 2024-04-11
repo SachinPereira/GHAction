@@ -1,10 +1,10 @@
-name: first-github-action
+name: first-action
 on: workflow_dispatch
-jobs:
-  name: first-job
-  runs-on: ubantu-latest
-  steps:
-    - name: Say Hi
-      run: echo "Hi"
-    - name: Say good bye
-      run: echo "Bye"
+jobs: 
+  first-job:
+    runs-on: ubantu-latest
+    steps:
+      - name: Say Hi
+        run: echo "Hi"
+      - name: Say Bye
+        run: echo "bye"
