@@ -1,0 +1,10 @@
+name: first-github-action
+on: workflow_dispatch
+jobs:
+  name: first-job
+  runs-on: ubantu-latest
+  steps:
+    - name: Say Hi
+      run: echo "Hi"
+    - name: Say good bye
+      run: echo "Bye"
