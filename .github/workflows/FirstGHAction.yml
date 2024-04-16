@@ -7,7 +7,7 @@ jobs:
       - name: SAY HI
         run: echo "Hi......."
       - name: SAY BYE
-        run: echo "Bye ...."
+        run: echo "Bye ....."
     
   
     
